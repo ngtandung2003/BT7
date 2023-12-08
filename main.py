@@ -6,3 +6,6 @@ st.title('USA college admission rate')
 
 input_md = open('lr_admit.pkl', 'rb')
 model = pkl.load(input_md)
+
+st.header('Insert admission information')
+gre = st.number_input('Input GRE score')
